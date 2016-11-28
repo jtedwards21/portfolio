@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.left-vertical-text {
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  float: left;
+}
+
+.right-vertical-text {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  float: left;
+}
+
+.title {
+  
+}
+
+.sub-title {
+
+}
+
+.column-title {
+
+}
+
+.plain-text {
+
+}
+
+.down-arrow {
+
+}
