@@ -8,3 +8,5 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 300})
 })
 return controller;
 }
+
+$(".background").css("opacity", 0);

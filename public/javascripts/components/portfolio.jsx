@@ -18,7 +18,7 @@ export default class Portfolio extends React.Component {
   showAbout(){
     console.log('g');
     JQuery(".background").animate({
-opacity: 1
+opacity: .5
 }, 1000, function(){
 JQuery(".about").show("slow")
 });

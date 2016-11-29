@@ -21571,7 +21571,7 @@
 	    value: function showAbout() {
 	      console.log('g');
 	      (0, _jquery2.default)(".background").animate({
-	        opacity: 1
+	        opacity: .5
 	      }, 1000, function () {
 	        (0, _jquery2.default)(".about").show("slow");
 	      });
