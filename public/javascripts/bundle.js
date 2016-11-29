@@ -21670,7 +21670,11 @@
 	          { className: "post" },
 	          "DIGITAL DESIGNER"
 	        ),
-	        _react2.default.createElement("div", { className: "down-arrow" })
+	        _react2.default.createElement(
+	          "div",
+	          { className: "down-arrow" },
+	          _react2.default.createElement("i", { className: "fa fa-arrow-down" })
+	        )
 	      );
 	    }
 	  }]);

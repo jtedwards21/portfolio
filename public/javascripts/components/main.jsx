@@ -12,7 +12,6 @@ export default class Main extends React.Component {
       <div className="main">
 	<div className="name">Joshua Edwards</div>
 	<div className="post">DIGITAL DESIGNER</div>
-	<div className="down-arrow"><i className="fa fa-arrow-down"></i></div>
       </div>
     );
   }

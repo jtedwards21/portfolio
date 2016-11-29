@@ -36,6 +36,7 @@ JQuery(".about").show("slow")
         {(this.main) ? <Main /> : <Projects />}
       </div>
     </div>
+    <div className="down-arrow"><i className="fa fa-arrow-down"></i></div>
     </div>
     )
   }
