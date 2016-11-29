@@ -13,6 +13,7 @@ export default class Portfolio extends React.Component {
 
     this.about = false;
 
+　　　　this.main = true;
 
   }
   showAbout(){
@@ -29,7 +30,7 @@ JQuery(".about").show("slow")
     return(
 　　　　<div className="another-container">
       <div className="left-vertical-text" onClick={this.showAbout.bind(this)}>{(this.about) ?　"about" : "close"}</div>
-      <div className="right-container"><div className="right-vertical-text">1478282482@qq.com</div></div>
+      <div className="right-vertical-text">1478282482@qq.com</div>
     <div className="portfolio-page">	
       <div className="main-container">
         {(this.main) ? <Main /> : <Projects />}

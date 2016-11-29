@@ -21563,6 +21563,8 @@
 
 	    _this.about = false;
 
+	    _this.main = true;
+
 	    return _this;
 	  }
 

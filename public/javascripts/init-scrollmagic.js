@@ -10,3 +10,4 @@ return controller;
 }
 
 $(".background").css("opacity", 0);
+$("body").css("margin", 0);
