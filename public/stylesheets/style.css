@@ -74,6 +74,14 @@ body {
   top: 50vh;
 }
 
+.name {
+  text-align: center;
+}
+
+.post {
+  text-align: center;
+}
+
 .title {
   
 }

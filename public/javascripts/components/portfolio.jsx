@@ -29,7 +29,7 @@ JQuery(".about").show("slow")
         //Then I need to get a black and white photo for the background
     return(
 　　　　<div className="another-container">
-      <div className="left-vertical-text" onClick={this.showAbout.bind(this)}>{(this.about) ?　"about" : "close"}</div>
+      <div className="left-vertical-text"><span onClick={this.showAbout.bind(this)}>{(this.about) ?　"close" : "about"}</span></div>
       <div className="right-vertical-text">1478282482@qq.com</div>
     <div className="portfolio-page">	
       <div className="main-container">

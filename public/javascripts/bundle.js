@@ -21588,17 +21588,17 @@
 	        { className: "another-container" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "left-vertical-text", onClick: this.showAbout.bind(this) },
-	          this.about ? "about" : "close"
+	          { className: "left-vertical-text" },
+	          _react2.default.createElement(
+	            "span",
+	            { onClick: this.showAbout.bind(this) },
+	            this.about ? "close" : "about"
+	          )
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "right-container" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "right-vertical-text" },
-	            "1478282482@qq.com"
-	          )
+	          { className: "right-vertical-text" },
+	          "1478282482@qq.com"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -21662,12 +21662,12 @@
 	        { className: "main" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "title" },
+	          { className: "name" },
 	          "Joshua Edwards"
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "sub-title" },
+	          { className: "post" },
 	          "DIGITAL DESIGNER"
 	        ),
 	        _react2.default.createElement("div", { className: "down-arrow" })

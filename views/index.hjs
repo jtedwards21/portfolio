@@ -12,7 +12,7 @@
       <div class="plain-text">Here are some of our awards and other stuff</div>
     </div>
     <div id="content">{{{markup}}}</div>
-    
+    <script src="https://use.fontawesome.com/e48b48a7fc.js"></script>
 　　　　<script src="javascripts/jquery-3.1.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>

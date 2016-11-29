@@ -10,9 +10,9 @@ export default class Main extends React.Component {
   render() {
     return (
       <div className="main">
-	<div className="title">Joshua Edwards</div>
-	<div className="sub-title">DIGITAL DESIGNER</div>
-	<div className="down-arrow"></div>
+	<div className="name">Joshua Edwards</div>
+	<div className="post">DIGITAL DESIGNER</div>
+	<div className="down-arrow"><i className="fa fa-arrow-down"></i></div>
       </div>
     );
   }
