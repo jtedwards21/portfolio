@@ -1,42 +1,56 @@
 body {
-  padding-left: auto;
-  padding-right: auto;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-　　width: 100vw;
+  position: absolute;
+}
+
+.background {
+　　opacity: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+}
+
+.about {
+  display: none;
 }
 
 #content{
-  padding: inherit;
-  width: inherit;
-  position: inherit;
+  position: absolute;
 }
 
 .portfolio-page {
-  padding: inherit;
+  padding-left: auto;
+  padding-right: auto;
   padding-top: 50vh;
-  width: 100vw;
+  width: 107vw;
   height: 45vh;
   position: absolute;
   top: 0;
   left: 0;
 }
 
+.another-container {
+  position: absolute;
+}
+
 .main-container {
   width: 200px;
   margin: 0 auto;
-  position: absolute;
+  float: none;
 }
 
 .left-vertical-text {
   transform: rotate(270deg);
   transform-origin: left top 0;
   float: left;
+  margin-top: 1vh;
 }
 
 .right-vertical-text {
   transform: rotate(90deg);
   transform-origin: left top 0;
   float: right;
+  margin-bottom: 1vh;
 }
 
 .title {

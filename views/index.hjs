@@ -5,6 +5,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+　　　　<div class="background"></div>
+    <div class="about">
+      <div class="title">Hello,</div>
+      <div class="sub-title">we are a web development firm in blablabla</div>
+      <div class="plain-text">Here are some of our awards and other stuff</div>
+    </div>
     <div id="content">{{{markup}}}</div>
     
 　　　　<script src="javascripts/jquery-3.1.1.min.js"></script>

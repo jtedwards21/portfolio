@@ -25,7 +25,7 @@ export default class Projects extends React.Component {
 	  <div className="spacer s2"></div>
 	</section>
 	<script>
-	  makeController();
+	  //makeController();
 	</script>
       </div>
     );
