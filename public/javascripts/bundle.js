@@ -21565,7 +21565,7 @@
 	  _createClass(Portfolio, [{
 	    key: "render",
 	    value: function render() {
-	      _react2.default.createElement(
+	      return _react2.default.createElement(
 	        "div",
 	        { className: "main-container" },
 	        _react2.default.createElement(
