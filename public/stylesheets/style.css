@@ -6,6 +6,15 @@ body {
   height: 100vh;
 }
 
+.dog-enter {
+  opacity: 0.01;
+}
+
+.dog-enter.dog-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
 .background {
   top: 0;
   margin: 0;
@@ -60,6 +69,13 @@ body {
   transform: rotate(270deg);
   transform-origin: left top 0;
   float: none;
+  position: absolute;
+  left: 0;
+  top: 50vh;
+}
+
+.left-button {
+　　float: none;
   position: absolute;
   left: 0;
   top: 50vh;

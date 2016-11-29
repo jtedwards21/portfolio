@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Main from "./main";
 import Projects from "./projects";
-import JQuery from 'jquery';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group' 
 
 export default class Portfolio extends React.Component {
   constructor() {
@@ -16,27 +16,20 @@ export default class Portfolio extends React.Component {
 　　　　this.main = true;
 
   }
-  showAbout(){
-    console.log('g');
-    JQuery(".background").animate({
-opacity: .5
-}, 1000, function(){
-JQuery(".about").show("slow")
-});
-  }
   render() {
 	//The proper way to set these heights will be with absolute positioning and then window.innerHeight/2
         //Then I need to get a black and white photo for the background
+    
     return(
 　　　　<div className="another-container">
-      <div className="left-vertical-text"><span onClick={this.showAbout.bind(this)}>{(this.about) ?　"close" : "about"}</span></div>
-      <div className="right-vertical-text">1478282482@qq.com</div>
     <div className="portfolio-page">	
       <div className="main-container">
+        <ReactCSSTransitionGroup transitionName="dog" transitionEnterTimeout={500}>
         {(this.main) ? <Main /> : <Projects />}
+        </ReactCSSTransitionGroup>
       </div>
     </div>
-    <div className="down-arrow"><i className="fa fa-arrow-down"></i></div>
+    <div className="down-arrow"　onClick={function(){console.log('g');}}><i className="fa fa-arrow-down"></i></div>
     </div>
     )
   }
