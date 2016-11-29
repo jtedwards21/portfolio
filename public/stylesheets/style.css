@@ -29,6 +29,7 @@ body {
   display: none;
   z-index: 3;
   margin: 20vh;
+　　color: white;
 }
 
 #content{
@@ -60,7 +61,7 @@ body {
 }
 
 .main-container {
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   float: none;
 }
@@ -92,18 +93,24 @@ body {
 
 .name {
   text-align: center;
+  font-size: 2.5em;
 }
 
 .post {
   text-align: center;
+  font-size: 1.5em;
 }
 
 .title {
-  
+  font-size: 3em;
+  font-family: Gza;
+  color: white;
 }
 
 .sub-title {
-
+  font-size: 2em;
+  font-family: Gza;
+  color: white;
 }
 
 .column-title {
@@ -111,6 +118,8 @@ body {
 }
 
 .plain-text {
+  font-family: Gza;
+  color: white;
 
 }
 
