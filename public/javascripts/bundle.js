@@ -21567,17 +21567,22 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "main-container" },
+	        { className: "portfolio-page" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "left-vertical-text" },
 	          this.about ? "about" : "close"
 	        ),
-	        this.main ? _react2.default.createElement(_main2.default, null) : _react2.default.createElement(_projects2.default, null),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "right-vertical-text" },
 	          "1478282482@qq.com"
+	        ),
+	        _react2.default.createElement("div", { className: "down-arrow" }),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "main-container" },
+	          this.main ? _react2.default.createElement(_main2.default, null) : _react2.default.createElement(_projects2.default, null)
 	        )
 	      );
 	    }

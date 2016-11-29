@@ -1,6 +1,30 @@
 body {
-  padding: 50px;
+  padding-left: auto;
+  padding-right: auto;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+　　width: 100vw;
+}
+
+#content{
+  padding: inherit;
+  width: inherit;
+  position: inherit;
+}
+
+.portfolio-page {
+  padding: inherit;
+  padding-top: 50vh;
+  width: 100vw;
+  height: 45vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-container {
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
 }
 
 .left-vertical-text {
@@ -12,7 +36,7 @@ body {
 .right-vertical-text {
   transform: rotate(90deg);
   transform-origin: left top 0;
-  float: left;
+  float: right;
 }
 
 .title {

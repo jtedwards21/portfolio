@@ -16,10 +16,13 @@ export default class Portfolio extends React.Component {
   }
   render() {
     return(
-    <div className="main-container">
+    <div className="portfolio-page">
       <div className="left-vertical-text">{(this.about) ?　"about" : "close"}</div>
-      {(this.main) ? <Main /> : <Projects />}
       <div className="right-vertical-text">1478282482@qq.com</div>
+      <div className="down-arrow"></div>
+      <div className="main-container">
+        {(this.main) ? <Main /> : <Projects />}
+      </div>
     </div>
     )
   }
