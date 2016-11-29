@@ -6,7 +6,11 @@
   </head>
   <body>
     <div id="content">{{{markup}}}</div>
-
+    
+　　　　<script src="javascripts/jquery-3.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+　　　　<script src="javascripts/init-scrollmagic.js"></script>
     <script src="javascripts/bundle.js"></script>
   </body>
 </html>
